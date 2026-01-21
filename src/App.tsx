@@ -73,7 +73,7 @@ const App = () => {
           </div>
         </div>
 
-        <label className="label">O‘lcham: {size}px</label>
+        <label className="label">O`lcham: {size}px</label>
         <input
           className="range"
           type="range"
