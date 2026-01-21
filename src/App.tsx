@@ -26,9 +26,9 @@ const App = () => {
       errorCorrectionLevel: "H",
     });
   };
-    renderQR();
-    
-  }, [text, qrColor, bgColor, size]);
+  
+  renderQR();
+}, [text, qrColor, bgColor, size]);
 
   const downloadQR = () => {
     if (!canvasRef.current) return;
